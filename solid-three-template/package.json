@@ -1,7 +1,8 @@
 {
-  "name": "vite-template-solid",
+  "name": "solid-three-template",
   "version": "0.0.0",
-  "description": "",
+  "private": false,
+  "description": "A template for SolidJS and ThreeJS",
   "scripts": {
     "start": "vite",
     "dev": "vite",
