@@ -14,7 +14,6 @@
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.18.0",
-    "@tailwindcss/forms": "^0.5.3",
     "@types/node": "^18.16.3",
     "@types/three": "^0.151.0",
     "typescript": "^4.9.5",
@@ -30,18 +29,12 @@
     "eslint-plugin-autofix": "^1.1.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-solid": "^0.9.1",
-    "postcss": "^8.4.18",
-    "postcss-import": "^15.0.0",
     "prettier": "^2.7.1",
-    "tailwindcss": "^3.3.2",
     "vite": "^4.1.1",
     "vite-plugin-inspect": "^0.7.24",
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.5.8",
-    "@kobalte/core": "^0.8.2",
-    "@kobalte/tailwindcss": "^0.4.1",
     "babel-preset-solid": "^1.7.3",
     "solid-js": "^1.7.3",
     "solid-three": "^0.1.0",
