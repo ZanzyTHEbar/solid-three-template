@@ -1,8 +1,9 @@
-import { Canvas } from 'solid-three'
+import { Canvas, useThree } from 'solid-three'
 import Box from './components/Box'
 import type { Component } from 'solid-js'
 
 const App: Component = () => {
+
     return (
         <Canvas
             camera={{

@@ -1,4 +1,4 @@
-import { createSignal, useFrame, type Component } from 'solid-three'
+import { createSignal, useFrame, useThree, type Component } from 'solid-three'
 import { Mesh } from 'three'
 
 const Box: Component = () => {
@@ -6,6 +6,9 @@ const Box: Component = () => {
     const [hovered, setHovered] = createSignal(false)
 
     useFrame(() => (mesh!.rotation.y += 0.01))
+    useThree((state) => {
+        console.log(state.camera)
+    })
 
     return (
         <mesh
